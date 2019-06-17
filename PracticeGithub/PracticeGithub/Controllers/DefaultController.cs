@@ -25,6 +25,11 @@ namespace PracticeGithub.Controllers
             int z = a + b;
             Console.WriteLine("the sum is", z);
         }
+        public void Multiply(int a, int b)
+        {
+            int z = a * b;
+            Console.WriteLine("the product is", z);
+        }
 
         // GET: Default/Create
         public ActionResult Create()
