@@ -11,12 +11,14 @@ namespace PracticeGithub.Controllers
 
         public void HarisFunction1()
         {
-            
+
             //Task 1.
-            
+            int x = 3;
             for(int i = 0; i < 10; i++)
             {
                 //something
+                x = x ^ 2;
+                x = x + 1;
             }
         }
 
