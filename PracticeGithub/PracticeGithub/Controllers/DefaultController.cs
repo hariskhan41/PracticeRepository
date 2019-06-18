@@ -22,8 +22,8 @@ namespace PracticeGithub.Controllers
 
         public void Sum(int a, int b)
         {
-            int z = a + b;
-            Console.WriteLine("the sum is", z);
+            int sum = a + b;
+            Console.WriteLine("the sum is", sum);
         }
         public void Multiply(int a, int b)
         {
